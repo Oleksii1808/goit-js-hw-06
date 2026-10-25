@@ -1,4 +1,4 @@
-class stringBuilder {
+class StringBuilder {
   #value;
   constructor(initialValue) {
     this.#value = initialValue;
@@ -21,7 +21,7 @@ class stringBuilder {
   }
 }
 
-const builder = new stringBuilder(".");
+const builder = new StringBuilder(".");
 console.log(builder.getValue()); // "."
 
 builder.padStart("^");
